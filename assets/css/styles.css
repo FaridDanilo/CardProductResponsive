@@ -120,7 +120,7 @@ h1 {
 
 @media (max-width: 575.98px) {
     .card-container {
-        margin: 2rem auto;
+        margin: 5rem auto;
         flex-direction: column;
         width: 85vw;
         height: auto;
@@ -131,7 +131,7 @@ h1 {
 
     .perfume-img {
         width: 100%;
-        height: 25rem;
+        height: 18rem;
         object-fit: cover;
         display: block;
     }
@@ -151,6 +151,8 @@ h1 {
     .attribution {
         display: flex;
         justify-content: center;
+        position: relative;
+        bottom: 0;
         font-size: .8rem;
     }
 }
