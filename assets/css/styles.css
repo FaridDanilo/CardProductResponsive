@@ -99,11 +99,11 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
     color: var(--White-Color);
-    background-color: var(--Green-darker);
+    background-color: var(--Green-light);
 }
 
 .btn-add:hover {
-    background-color: var(--Green-light);
+    background-color: var(--Green-darker);
 }
 
 .cart-svg {
