@@ -28,8 +28,8 @@ body {
     top: 50%;
     left: 50%;
     display: flex;
-    width: 42rem;
-    height: 30rem;
+    width: 50rem;
+    height: 34rem;
     border-radius: 10px;
     overflow: hidden;
     transform: translate(-50%, -50%);
@@ -38,14 +38,14 @@ body {
 
 .perfume-img {
     width: 50%;
+    object-fit: cover;
 }
 
 .card-content {
     margin: 2rem auto;
 }
 
-.main-text,
-h1 {
+.main-text, h1 {
     margin-bottom: 20px;
 }
 
@@ -55,6 +55,7 @@ h1 {
 }
 
 h1 {
+    font-size: 2.8rem;
     width: 10ch;
     font-family: 'Fraunces', serif;
 }
@@ -99,11 +100,11 @@ h1 {
     font-weight: bold;
     border-radius: 10px;
     color: var(--White-Color);
-    background-color: var(--Green-darker);
+    background-color: var(--Green-light);
 }
 
 .btn-add:hover {
-    background-color: var(--Green-light);
+    background-color: var(--Green-darker);
 }
 
 .cart-svg {
@@ -118,7 +119,7 @@ h1 {
     transform: translate(-50%, 0);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
     .card-container {
         margin: 2rem auto;
         flex-direction: column;
