@@ -8,7 +8,11 @@
 }
 
 body {
-    background-color: var(--Cream-Color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Cream-Color); 
 }
 
 :root {
@@ -24,15 +28,11 @@ body {
 }
 
 .card-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     display: flex;
     width: 50rem;
     height: 34rem;
-    border-radius: 10px;
     overflow: hidden;
-    transform: translate(-50%, -50%);
+    border-radius: 10px;
     background-color: var(--White-Color);
 }
 
@@ -66,8 +66,7 @@ h1 {
     line-height: 1.5rem;
 }
 
-.price-product,
-.discount {
+.price-product, .discount {
     font-family: 'Fraunces', serif;
 }
 
